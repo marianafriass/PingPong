@@ -1,25 +1,39 @@
 #include "Game.h"
-#include "Ball.h"
-#include "Paddle.h"
-#include "Players.h"
-#include "Boundary.h"
 
-class Game {
+// Constructor
+Game::Game() : ball1(), paddle1(), player1(), boundary1() {
+    isRunning = false;
+}
 
-private:
-    bool isRunning;
-    Ball ball1;
-    Paddle paddle1;
-    Players player1;
-    Boundary boundary1;
+// Inicia el juego
+void Game::startGame() {
+    isRunning = true;
+}
 
-public:
-    Game() : ball1(), paddle1(), player1(), boundary1() {
-        isRunning = false;
-    }
+// Actualiza estado del juego
+void Game::updateGame() {
+    // Para mover la pelota, verificar colisiones, etc.
+}
 
-    void startGame() { isRunning = true; }
-    void updateGame() { /* lógica para actualizar el juego */ }
-    
-};
+// Finaliza el juego
+void Game::endGame() {
+    isRunning = false;
+}
+
+// Detecta colisiones con la pelota
+void Game::detectCollision(Ball ball) {
+    // Colisiones entre la pelota y el paddle o las paredes
+}
+
+// Actualiza el puntaje de un jugador
+void Game::updateScore(Players& player) {
+    player.incrementScore();
+}
+
+// Reinicia el juego
+void Game::resetGame() {
+    isRunning = false;
+    ball1.reset();
+    player1.resetScore();
+}
 
