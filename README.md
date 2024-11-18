@@ -1,7 +1,10 @@
 # Ping Pong Proyect
-Ping Pong is a game that requires quick reflexes and precise angle calculations to return the ball accurately to the other side of the table. Creating this game in C++ would not only be entertaining but also help users improve their reaction times. It’s an ideal project because it incorporates various programming concepts we’re learning in class, such as object-oriented programming, loops, and collision detection, making it both educational and fun to develop. Additionally, I can apply physics concepts to create more challenging levels, add scoring mechanisms, and, if possible, include an AI opponent for a more dynamic gameplay experience.
 
+This project involves the development of a Ping-Pong game in C++, where I will implement fundamental concepts of object-oriented programming (OOP) such as collision detection, loops, and class structures. Additionally, basic laws of physics will be applied to simulate the ball’s speed and direction, accounting for collisions between the ball and the paddle, as well as bounces off the horizontal walls.
 
+The game simulates a Ping Pong match between two players, which can either be two players or a player against an AI (if implemented). The objective is to keep the ball in play, returning it accurately to the opposite side of the table while preventing it from falling off the playing field. A scoreboard will keep track of points, with the first player to reach 10 points declared the winner.
+
+This project not only aims to create an entertaining and engaging game but also serves as an educational tool to improve the user's reaction time and ability to calculate precise angles quickly. The game mechanics will challenge players to develop better timing and hand-eye coordination, simulating real-world Ping Pong gameplay.
 
 
 
