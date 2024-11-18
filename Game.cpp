@@ -1,27 +1,25 @@
 #include "Game.h"
+#include "Ball.h"
+#include "Paddle.h"
+#include "Players.h"
+#include "Boundary.h"
 
-Game::Game() : isRunning(false) {}
+class Game {
 
-void Game::startGame() {
-    isRunning = true;
-}
+private:
+    bool isRunning;
+    Ball ball1;
+    Paddle paddle1;
+    Players player1;
+    Boundary boundary1;
 
-void Game::updateGame() {
-    // Lógica para actualizar el estado del juego
-}
+public:
+    Game() : ball1(), paddle1(), player1(), boundary1() {
+        isRunning = false;
+    }
 
-void Game::endGame() {
-    isRunning = false;
-}
+    void startGame() { isRunning = true; }
+    void updateGame() { /* lógica para actualizar el juego */ }
+    
+};
 
-void Game::detectCollision(const Ball &ball) {
-    // Lógica para detectar colisiones
-}
-
-void Game::updateScore(Players &player) {
-    player.incrementScore();
-}
-
-void Game::resetGame() {
-    isRunning = false;
-}
