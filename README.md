@@ -6,4 +6,4 @@ Ping Pong is a game that requires quick reflexes and precise angle calculations 
 
 
 
-![Diagrama de classes](pingpong.drawio.png)
+![Diagrama de classes](pingpong.drawio (2).png)
