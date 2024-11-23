@@ -7,6 +7,6 @@ The game simulates a Ping Pong match between two players, which can either be tw
 This project not only aims to create an entertaining and engaging game but also serves as an educational tool to improve the user's reaction time and ability to calculate precise angles quickly. The game mechanics will challenge players to develop better timing and hand-eye coordination, simulating real-world Ping Pong gameplay.
 
 
-
+The use of the CMakeLists.txt is optional, the program should run without it. 
 
 ![Diagrama de classes](pingpong.drawio.png)
