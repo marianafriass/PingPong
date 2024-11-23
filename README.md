@@ -9,4 +9,4 @@ This project not only aims to create an entertaining and engaging game but also 
 
 
 
-![Diagrama de classes](pingpong.drawio(2).png)
+![Diagrama de classes](pingpong.drawio.png)
